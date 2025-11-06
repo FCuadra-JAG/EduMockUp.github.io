@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>README: Big Diddy Burger</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      
+      @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+      body {
+        font-family: 'Poppins', sans-serif;
+      }
+    </style>
+<script type="importmap">
+{
+  "imports": {
+    "react": "https://aistudiocdn.com/react@^19.2.0",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+    "react/": "https://aistudiocdn.com/react@^19.2.0/"
+  }
+}
+</script>
+</head>
+  <body class="min-h-screen bg-gray-100 dark:bg-gray-900 text-gray-800 dark:text-gray-200 p-4 sm:p-6 lg:p-8">
+    <main class="max-w-4xl mx-auto bg-gray-50 dark:bg-gray-800/50 rounded-2xl shadow-2xl overflow-hidden">
+      <header class="bg-cover bg-center h-48" style="background-image: url('https://picsum.photos/1200/400?grayscale&blur=2')">
+        <div class="flex items-center justify-center h-full w-full bg-black bg-opacity-50">
+          <div class="text-center">
+            <h1 class="text-4xl sm:text-5xl font-extrabold text-white leading-tight">
+              <span class="text-amber-400">Big Diddy</span> Burger
+            </h1>
+            <p class="text-lg text-gray-300 mt-2">Maqueta Estática del Menú</p>
+          </div>
+        </div>
+      </header>
+
+      <div class="p-6 sm:p-10">
+        <section id="descripcion" class="mb-12">
+          <h2 class="text-3xl font-bold border-b-4 border-amber-400 pb-2 mb-6 text-gray-800 dark:text-white">
+            🍔 Descripción del Proyecto
+          </h2>
+          <p class="text-lg leading-relaxed">
+            Este proyecto es una maqueta estática (mockup) desarrollada con el objetivo de presentar el diseño de un menú para la hamburguesería ficticia <strong class="font-semibold text-amber-500">"Big Diddy Burger"</strong>. La página ha sido creada utilizando tecnologías web modernas para asegurar una presentación visualmente atractiva y una estructura de código limpia y mantenible.
+          </p>
+        </section>
+
+        <section id="menu" class="mb-12">
+          <h2 class="text-3xl font-bold border-b-4 border-amber-400 pb-2 mb-8 text-gray-800 dark:text-white">
+            📜 Nuestro Menú
+          </h2>
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <div class="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-md transition-transform transform hover:scale-105">
+              <h3 class="text-xl font-bold text-amber-500 mb-2">The Diddy Classic</h3>
+              <p class="text-gray-600 dark:text-gray-300">Hamburguesa de res con queso cheddar, lechuga, tomate, pepinillos y la salsa secreta “Diddy Sauce”.</p>
+            </div>
+            <div class="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-md transition-transform transform hover:scale-105">
+              <h3 class="text-xl font-bold text-amber-500 mb-2">Smokehouse Beast</h3>
+              <p class="text-gray-600 dark:text-gray-300">Doble carne, tocino ahumado, cebolla caramelizada y salsa BBQ artesanal.</p>
+            </div>
+            <div class="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-md transition-transform transform hover:scale-105">
+              <h3 class="text-xl font-bold text-amber-500 mb-2">Spicy Tex-Mex</h3>
+              <p class="text-gray-600 dark:text-gray-300">Hamburguesa picante con jalapeños, queso pepper jack y guacamole fresco.</p>
+            </div>
+            <div class="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-md transition-transform transform hover:scale-105">
+              <h3 class="text-xl font-bold text-amber-500 mb-2">Big Veggie Bang</h3>
+              <p class="text-gray-600 dark:text-gray-300">Opción vegetariana con hamburguesa de garbanzos, hummus y vegetales asados.</p>
+            </div>
+            <div class="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-md transition-transform transform hover:scale-105">
+              <h3 class="text-xl font-bold text-amber-500 mb-2">Sweet Bacon Melt</h3>
+              <p class="text-gray-600 dark:text-gray-300">Pan brioche con carne, tocino glaseado con miel y queso suizo derretido.</p>
+            </div>
+          </div>
+        </section>
+
+        <section id="extras" class="mb-12">
+          <h2 class="text-3xl font-bold border-b-4 border-amber-400 pb-2 mb-6 text-gray-800 dark:text-white">
+           🍟 Extras y Bebidas
+          </h2>
+          <ul class="space-y-4 text-lg list-disc list-inside">
+            <li>Papas fritas clásicas o con queso cheddar y tocino.</li>
+            <li>Batidos artesanales de vainilla, chocolate o fresa.</li>
+            <li>Limonadas naturales y cerveza artesanal local.</li>
+          </ul>
+        </section>
+
+        <section id="tecnologias">
+          <h2 class="text-3xl font-bold border-b-4 border-amber-400 pb-2 mb-6 text-gray-800 dark:text-white">
+            💻 Tecnologías Utilizadas
+          </h2>
+          <div class="flex flex-wrap gap-4">
+            <span class="bg-green-100 text-green-800 dark:bg-green-900 dark:text-green-300 text-sm font-medium me-2 px-3 py-1.5 rounded-full">HTML5</span>
+            <span class="bg-sky-100 text-sky-800 dark:bg-sky-900 dark:text-sky-300 text-sm font-medium me-2 px-3 py-1.5 rounded-full">Tailwind CSS</span>
+             <span class="bg-purple-100 text-purple-800 dark:bg-purple-900 dark:text-purple-300 text-sm font-medium me-2 px-3 py-1.5 rounded-full">CSS3</span>
+          </div>
+        </section>
+      </div>
+
+      <footer class="text-center py-6 bg-gray-200 dark:bg-gray-900 border-t border-gray-300 dark:border-gray-700">
+        <p class="text-gray-600 dark:text-gray-400">&copy; 2024 Big Diddy Burger. Todos los derechos reservados (ficticios).</p>
+      </footer>
+    </main>
+  </body>
+</html>
